@@ -19,9 +19,12 @@ h1{
      justify-content: center;
      background-color: #e4f9f5;
   }
+  .mycontainer h2{
+    margin-bottom: 50px;
+  }
   .img1{
     width: 100px;
-   align-self:flex-end
+   align-self:flex-end;
   }
   .img2{
     width: 100px;
@@ -53,20 +56,25 @@ h1{
     flex-direction: column;
    margin-top: 10px;
     align-items:center
+   
   }
   .edu h4{
     color: #66bfbf;
+  
   }
+  
   .container{
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
   }
   .edu img{
     border-radius: 20%;
   }
-.image1{
-    margin-bottom:5%;
-}
+  .image1{
+    margin-bottom: 5%;
+   
+  }
   .skill{
     display: flex;
    flex-direction: column;
